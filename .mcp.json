@@ -1,0 +1,15 @@
+{
+    "mcpServers": {
+        "notion-ops": {
+            "command": "python3",
+            "args": [
+                "scripts/notion_ops.py",
+                "--mcp"
+            ],
+            "env": {
+                "NOTION_TOKEN": "your_notion_integration_token_here"
+            },
+            "description": "Custom Notion operations for standardized workflows. Set NOTION_TOKEN to your integration token."
+        }
+    }
+}
