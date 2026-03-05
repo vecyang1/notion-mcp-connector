@@ -1,16 +1,16 @@
 # ⚠️ Repository Moved
 
-This repository has been consolidated into the unified skills collection:
+This repository has been consolidated into the unified productivity skills collection:
 
-## 👉 [Vec's Claude Skills Collection](https://github.com/vecyang1/vec-claude-skills)
+## 👉 [Vec's Productivity Skills](https://github.com/vecyang1/vec-productivity-skills)
 
 The Notion MCP Connector skill is now maintained at:
-**https://github.com/vecyang1/vec-claude-skills/tree/main/notion-mcp-connector**
+**https://github.com/vecyang1/vec-productivity-skills/tree/main/notion-mcp-connector**
 
 ### Why the Move?
 
 To provide a better experience:
-- ✅ All skills in one place
+- ✅ All productivity skills in one place
 - ✅ Consistent documentation
 - ✅ Easier installation and updates
 - ✅ Better community support
@@ -22,8 +22,8 @@ To provide a better experience:
 git clone https://github.com/vecyang1/notion-mcp-connector.git
 
 # New way (recommended)
-git clone https://github.com/vecyang1/vec-claude-skills.git
-cd vec-claude-skills/notion-mcp-connector
+git clone https://github.com/vecyang1/vec-productivity-skills.git
+cd vec-productivity-skills/notion-mcp-connector
 ```
 
 ---
