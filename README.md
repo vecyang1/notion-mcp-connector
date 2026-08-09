@@ -1,31 +1,15 @@
-# ⚠️ Repository Moved
+# Repository Moved
 
-This repository has been consolidated into the unified productivity skills collection:
-
-## 👉 [Vec's Productivity Skills](https://github.com/vecyang1/vec-productivity-skills)
-
-The Notion MCP Connector skill is now maintained at:
-**https://github.com/vecyang1/vec-productivity-skills/tree/main/notion-mcp-connector**
-
-### Why the Move?
-
-To provide a better experience:
-- ✅ All productivity skills in one place
-- ✅ Consistent documentation
-- ✅ Easier installation and updates
-- ✅ Better community support
-
-### Quick Migration
+This repository is a compatibility redirect. The maintained community skill lives in [Vec's Productivity Skills](https://github.com/vecyang1/vec-productivity-skills/tree/main/notion-mcp-connector).
 
 ```bash
-# Old way (deprecated)
-git clone https://github.com/vecyang1/notion-mcp-connector.git
-
-# New way (recommended)
 git clone https://github.com/vecyang1/vec-productivity-skills.git
 cd vec-productivity-skills/notion-mcp-connector
 ```
 
----
+This redirect intentionally contains no Notion token, workspace ID, local-machine path, or personal contact detail. Before publishing any maintenance change, run:
 
-**Please update your bookmarks and installations!**
+```bash
+python3 scripts/verify_public_release.py --history
+python3 tests/test_public_release.py
+```
